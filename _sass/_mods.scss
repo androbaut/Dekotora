@@ -20,7 +20,7 @@
   @include center;
 }
 .center p{
-@include responsive-font(1vw, 10px, 18px);
+@include responsive-font(1vw, 18px, 18px);
 }
 #social i{
   color: grey;
