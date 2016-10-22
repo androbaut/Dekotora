@@ -23,8 +23,13 @@
 .center{
   @include center;
 }
-.center p{
+.text p{
 @include responsive-font(1vw, 12px, 18px);
+margin-top: 5px;
+}
+.copy p{
+@include responsive-font(1vw, 12px, 14px);
+margin-top: 5px;
 }
 #social i{
   color: grey;
@@ -32,4 +37,5 @@
 #text p{
   max-width: 750px;
   @include margin;
+  margin-bottom: 30px;
 }
