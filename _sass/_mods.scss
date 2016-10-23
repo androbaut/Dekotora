@@ -3,13 +3,14 @@
 #deko_vid{
   @include margin;
 }
+
 #logo{
   width: 20%;
   max-width: 120px;
   margin-top: 3%;
 }
 #deko{
-  max-width: 550px;
+  max-width: 750px;
   width: 100%;
 }
 
@@ -17,23 +18,29 @@
   max-width: 1000px;
   width: 100%;
 }
+
 #deko_vid{
   display: block;
 }
+
 .center{
   @include center;
 }
+
 .text p{
 @include responsive-font(1vw, 12px, 18px);
 margin-top: 5px;
 }
+
 .copy p{
 @include responsive-font(1vw, 12px, 14px);
 margin-top: 5px;
 }
+
 #social i{
   color: grey;
 }
+
 #text p{
   max-width: 750px;
   @include margin;

@@ -53,7 +53,7 @@
         };
     };
 
-    var throttledSeek = throttle(1000 / 5, seek);
+    var throttledSeek = throttle(1000 / 16, seek);
 
     function onload() {
       loaded = true;
