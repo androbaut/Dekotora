@@ -28,7 +28,7 @@
 }
 
 .text p{
-@include responsive-font(1.5vw, 12px, 40px);
+@include responsive-font(1.5vw, 16px, 40px);
 margin-top: 5px;
 }
 
@@ -45,4 +45,17 @@ margin-top: 5px;
   max-width: 1400px;
   @include margin;
   margin-bottom: 30px;
+}
+
+@media (max-width: 500px){
+  #text p{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 501px) and (max-width: 1500px){
+  #text p{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
