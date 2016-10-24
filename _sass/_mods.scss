@@ -98,6 +98,13 @@ margin-bottom: 5px;
     font-size: 1.2em;
   }
 }
+#font{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
 #font:hover{
   color: #000;
 }
