@@ -12,7 +12,7 @@
 }
 #deko{
   max-width: 900px;
-  width: 85%;
+  width: 100%;
   padding-bottom: 25px;
 }
 
@@ -98,4 +98,8 @@ margin-top: 5px;
 }
 #font:hover{
   color: #000;
+}
+#gif .container{
+  padding-left: 0px;
+  padding-right: 0px;
 }
