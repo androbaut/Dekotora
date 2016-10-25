@@ -77,35 +77,46 @@ margin-bottom: 5px;
   width: 5%;
   max-width: 30px;
 }
-//@media (max-width: 767px){
-//  #gif{
-//    display: block;
-//  }
-//  #vid{
-//    display: none;
-//  }
-//}
-//@media (min-width: 768px){
-//  #gif{
-//    display: none;
-//  }
-//  #vid{
-//    display: block;
-//  }
-//}
+@media (max-width: 767px){
+  #gif{
+   display: block;
+  }
+  #vid{
+    display: none;
+  }
+}
+@media (min-width: 768px){
+  #gif{
+    display: none;
+  }
+  #vid{
+    display: block;
+  }
+}
 @media (max-width: 768px){
-  #font{
+  .font{
     font-size: 1.2em;
   }
 }
-#font{
+
+#insta{
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
 }
-#font:hover{
+#mail{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+#insta:hover{
+  color: #000;
+}
+#mail:hover{
   color: #000;
 }
 #gif .container{
@@ -115,4 +126,10 @@ margin-bottom: 5px;
 #gif .col-md-12{
   padding-left: 0px;
   padding-right: 0px;
+}
+#mail{
+  padding-right: 5px;
+}
+#insta{
+  padding-left: 5px;
 }
