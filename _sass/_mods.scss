@@ -77,22 +77,22 @@ margin-bottom: 5px;
   width: 5%;
   max-width: 30px;
 }
-@media (max-width: 767px){
-  #gif{
-   display: block;
-  }
-  #vid{
-    display: none;
-  }
-}
-@media (min-width: 768px){
-  #gif{
-    display: none;
-  }
-  #vid{
-    display: block;
-  }
-}
+//@media (max-width: 767px){
+  //#gif{
+   //display: block;
+  //}
+  //#vid{
+    //display: none;
+  //}
+//}
+//@media (min-width: 768px){
+  //#gif{
+    //display: none;
+  //}
+  //#vid{
+    //display: block;
+  //}
+//}
 @media (max-width: 768px){
   .font{
     font-size: 1.2em;
