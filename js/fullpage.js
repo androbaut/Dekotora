@@ -19,13 +19,12 @@ $('#category-tabs li a').click(function(){
     $(this).find('i').toggleClass('fa-envelope-o fa-times')
 });
 
-$('#mail').click(function(){
-    $(this).toggleClass('fa-envelope-o fa-times')
-});
+//$('#mail').click(function(){
+    //$(this).toggleClass('fa-envelope-o fa-times')
+//});
 
-$('#email').hide();
-$('#mail').on('click',
-  function() {
-    $('#text, #email').toggle()
-  }
-);
+//$(function(){
+    //$("#mail").click(function(){
+        //$(".switch").toggle();
+    //});
+//});
