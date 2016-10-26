@@ -30,6 +30,11 @@
   @include center;
 }
 
+.email p{
+@include responsive-font(2.5vw, 16px, 100px);
+margin-top: 5px;
+}
+
 .text p{
 @include responsive-font(1.5vw, 16px, 40px);
 margin-top: 5px;
@@ -130,6 +135,15 @@ margin-bottom: 5px;
 #mail{
   padding-right: 5px;
 }
-#insta{
+#insta
+{
   padding-left: 5px;
+}
+
+#noodle{
+  display: none;
+}
+#email p{
+  padding: 3.54166vw 0 3.54166vw 0;
+  margin: 5px 0 30px 0;
 }

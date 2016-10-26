@@ -13,3 +13,19 @@ $(window).scroll(function(){
 $(document).ready(function(){
   $('#page-top').fadeIn(500);
 });
+
+$('#category-tabs li a').click(function(){
+    $(this).next('ul').slideToggle('500');
+    $(this).find('i').toggleClass('fa-envelope-o fa-times')
+});
+
+$('#mail').click(function(){
+    $(this).toggleClass('fa-envelope-o fa-times')
+});
+
+$('#email').hide();
+$('#mail').on('click',
+  function() {
+    $('#text, #email').toggle()
+  }
+);
