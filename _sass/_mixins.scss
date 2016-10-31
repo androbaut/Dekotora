@@ -28,3 +28,12 @@
 
   font-size: $responsive;
 }
+@mixin social(){
+  display: inline-block;
+    vertical-align: middle;
+    font-size: 2.2em;
+    background-color: #fff;
+    height: 52px;
+    width: 32px;
+    margin: 20px 5px;
+}

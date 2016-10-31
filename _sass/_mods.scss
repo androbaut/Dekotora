@@ -46,16 +46,29 @@ margin-top: 5px;
 margin-bottom: 5px;
 }
 
-#social i{
+#insta,
+#mail{
   color: grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
+.social{
+  text-align: center;
+}
+.social .fa{
+  @include social;
+}
+#insta{
+  line-height: 54px;
+}
+#mail{
+  line-height: 53px;
+}
 #text p{
   max-width: 1400px;
   @include margin;
   margin-bottom: 30px;
 }
-
 @media (max-width: 500px){
   #text p{
     padding-left: 5%;
@@ -131,13 +144,6 @@ margin-bottom: 5px;
 #gif .col-md-12{
   padding-left: 0px;
   padding-right: 0px;
-}
-#mail{
-  padding-right: 5px;
-}
-#insta
-{
-  padding-left: 5px;
 }
 
 #noodle{
