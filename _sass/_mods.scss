@@ -60,14 +60,16 @@ margin-bottom: 5px;
 }
 #insta{
   line-height: 54px;
+  margin-top: 10px;
 }
 #mail{
   line-height: 53px;
+  margin-top: 10px;
 }
 #text p{
   max-width: 1400px;
   @include margin;
-  margin-bottom: 30px;
+  margin-bottom: 23px;
 }
 @media (max-width: 500px){
   #text p{
@@ -155,4 +157,7 @@ margin-bottom: 5px;
 }
 #email{
   display: none;
+}
+.copy p{
+  margin-top: 0px;
 }
