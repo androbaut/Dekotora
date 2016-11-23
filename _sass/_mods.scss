@@ -36,7 +36,7 @@ margin-top: 5px;
 }
 //Responsive body text
 .center-div p{
-@include responsive-font(1.5vw, 16px, 40px);
+@include responsive-font(1.2vw, 12px, 40px);
 margin-top: 5px;
 }
 
@@ -216,4 +216,16 @@ margin-bottom: 5px;
   #mail{
     display: inline-block;
   }
+}
+#section2{
+  background-image: url( "../img/section3.jpg" );
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#section3{
+  background-image: url( "../img/section2.jpg" );
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
