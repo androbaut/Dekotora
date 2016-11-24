@@ -1,7 +1,9 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
       //Scrolling
-      autoScrolling:false
+      autoScrolling:false,
+      scrollingSpeed: 2500,
+      easing: 'swing'
   });
 });
 
