@@ -30,3 +30,14 @@ $(function(){
         $(".switch").toggle();
     });
 });
+
+$('#arrow_switch').click(function(e) {
+    //Cancel the link behavior
+    e.preventDefault();
+    if ($(window).width() > 767)
+    {
+        // I'm assuming you'd get this dynamically somehow;
+        location.href="#about";
+        return;
+    }
+});
