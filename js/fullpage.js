@@ -3,7 +3,8 @@ $(document).ready(function() {
       //Scrolling
       autoScrolling:false,
       scrollingSpeed: 2500,
-      easing: 'swing'
+      easing: 'swing',
+      fitToSection: false
   });
 });
 
