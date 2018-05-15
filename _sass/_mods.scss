@@ -236,3 +236,14 @@ margin-bottom: 5px;
 .privacy_link:hover{
   text-decoration: none;
 }
+//Good Boy Logotype
+@media (max-width: 767px){
+  .goodboy{
+    width: 300px;
+  }
+}
+@media (min-width: 768px){
+  .goodboy{
+    width: 600px;
+  }
+}
