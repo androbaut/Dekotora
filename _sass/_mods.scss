@@ -268,9 +268,14 @@ margin-bottom: 5px;
 }
 #mc_embed_signup form{
   text-align: center!important;
+  font-family: 'apercu_regular_pro';
 }
 #mc_embed_signup input.email{
   margin: 0 auto 10px auto!important;
+  font-family: 'apercu_regular_pro';
+  border-radius: 0!important;
+  border: 2px solid #333!important;
+  
 }
 #mc_embed_signup input.button{
   margin: 0 auto 10px auto!important;
